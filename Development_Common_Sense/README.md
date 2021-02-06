@@ -46,3 +46,12 @@
 
 **REST**는 디자인 패턴이다. **Resource Oriented Architecture** 즉 자원(Resource)를 중심으로 한 API 설계이고 HTTP Method를 통해 자원을 처리하도록 하는 것이다.
 
+### REST API 디자인
+~~~
+1. URI는 정보의 자원을 표현해야 한다.
+2. 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.
+~~~
+|Method|역할|
+|~~~|~~~|
+|post|POST를 통해 해당 URI를 요청하면 리소스를 생성한다.|
+|GET|GET를 통해 해당 리소스를 조회합니다. 리소스를 조회하고 해당 도큐먼트에 대한 자세한 정보를 가져온다.|
