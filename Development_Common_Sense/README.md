@@ -1,7 +1,8 @@
 # Development Common Sense
 
 - 좋은코드 
-
+- 객체 지향 프로그래밍(OOP)
+  - OOP의 원칙
 
 ## 좋은 코드
 ~~~
