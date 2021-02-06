@@ -3,6 +3,7 @@
 - 좋은코드 
 - 객체 지향 프로그래밍(OOP)
   - OOP의 원칙
+- RESTful API
 
 ## 좋은 코드
 ~~~
@@ -38,3 +39,9 @@
 4. I(ISP : Interface Segregation Principle) : 특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나보다 낫다.
 5. D(DIP : Dependency Inversion Principle) : 추상화에 의존한다. 구체화에 의존하면 안된다.
 ~~~
+
+## RESTful API
+
+**REST**란 REpresentational State Transfer의 약자이다. 여기에 ~ful 이라는 형용사형 어미를 붙여 ~한 API 라는 의미로 사용된다. 즉 REST 의 기본 원칙을 성실히 지킨 서비스 디자인은 'RESTful'하다라고 표현할 수 있다.
+**REST**는 디자인 패턴이다. **Resource Oriented Architecture** 즉 자원(Resource)를 중심으로 한 API 설계이고 HTTP Method를 통해 자원을 처리하도록 하는 것이다.
+
